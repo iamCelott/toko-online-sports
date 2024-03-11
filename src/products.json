@@ -1,0 +1,448 @@
+{
+  "Rugby": [
+    {
+      "nama": "Jersey",
+      "rating": 4.5,
+      "harga": 780000,
+      "diskon": 0.5,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 4.4,
+      "harga": 310000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.8,
+      "harga": 1500000,
+      "diskon": 0,
+      "kategori": "best_sale",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 4.1,
+      "harga": 50000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Headgear",
+      "rating": 4.4,
+      "harga": 1300000,
+      "diskon": 0.7,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Body_armor",
+      "rating": 4.4,
+      "harga": 1700000,
+      "diskon": 0.7,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Gumshield",
+      "rating": 4.7,
+      "harga": 150000,
+      "diskon": 0.1,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_rugby",
+      "rating": 5.0,
+      "harga": 900000,
+      "diskon": 0.6,
+      "kategori": "best_sale",
+      "gambar": ""
+    }
+  ],
+  "Sepak_bola": [
+    {
+      "nama": "Jersey",
+      "rating": 4.5,
+      "harga": 1200000,
+      "diskon": 0.5,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 4.4,
+      "harga": 500000,
+      "diskon": 0.5,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.9,
+      "harga": 1800000,
+      "diskon": 0,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 4.2,
+      "harga": 60000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Pelindung_kaki",
+      "rating": 4.3,
+      "harga": 40000,
+      "diskon": 0.5,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sarung_tangan_kiper",
+      "rating": 4.7,
+      "harga": 150000,
+      "diskon": 0.1,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_sepak",
+      "rating": 5.0,
+      "harga": 1000000,
+      "diskon": 0.5,
+      "kategori": "best_sale",
+      "gambar": ""
+    }
+  ],
+  "Tenis": [
+    {
+      "nama": "Jersey",
+      "rating": 4.4,
+      "harga": 800000,
+      "diskon": 0.5,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 4.4,
+      "harga": 500000,
+      "diskon": 0.5,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.9,
+      "harga": 1000000,
+      "diskon": 0.1,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 4.3,
+      "harga": 30000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Raket_tenis",
+      "rating": 4.5,
+      "harga": 2000000,
+      "diskon": 0.5,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Pelindung_siku_dan_lutut",
+      "rating": 4.8,
+      "harga": 130000,
+      "diskon": 0.3,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_tenis",
+      "rating": 5.0,
+      "harga": 150000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    }
+  ],
+  "Baseball": [
+    {
+      "nama": "Jersey",
+      "rating": 4.0,
+      "harga": 500000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 3.9,
+      "harga": 400000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.5,
+      "harga": 800000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 4.2,
+      "harga": 40000,
+      "diskon": 0.2,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bat",
+      "rating": 4.8,
+      "harga": 2300000,
+      "diskon": 0.6,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Mitt",
+      "rating": 4.7,
+      "harga": 300000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Fielder's_glove",
+      "rating": 4.0,
+      "harga": 350000,
+      "diskon": 0.2,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Topi_baseball",
+      "rating": 4.3,
+      "harga": 90000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Pelindung_siku_dan_lutut",
+      "rating": 4.3,
+      "harga": 100000,
+      "diskon": 0.2,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_baseball",
+      "rating": 4.8,
+      "harga": 140000,
+      "diskon": 0.1,
+      "kategori": "best_sale",
+      "gambar": ""
+    }
+  ],
+  "Golf": [
+    {
+      "nama": "Jersey",
+      "rating": 3.8,
+      "harga": 500000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 3.9,
+      "harga": 400000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.6,
+      "harga": 800000,
+      "diskon": 0.1,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 4.0,
+      "harga": 40000,
+      "diskon": 0.2,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Stik_golf",
+      "rating": 4.8,
+      "harga": 5000000,
+      "diskon": 0.5,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Topi_golf",
+      "rating": 4.3,
+      "harga": 80000,
+      "diskon": 0.3,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_golf",
+      "rating": 4.7,
+      "harga": 200000,
+      "diskon": 0,
+      "kategori": "best_sale",
+      "gambar": ""
+    }
+  ],
+  "Bola_basket": [
+    {
+      "nama": "Jersey",
+      "rating": 4.5,
+      "harga": 750000,
+      "diskon": 0.5,
+      "kategori": "best_sale",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 4.2,
+      "harga": 500000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.9,
+      "harga": 1200000,
+      "diskon": 0.3,
+      "kategori": "best_sale",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 4.0,
+      "harga": 30000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Pelindung_siku_dan_lutut",
+      "rating": 4.0,
+      "harga": 50000,
+      "diskon": 0.1,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_basket",
+      "rating": 4.6,
+      "harga": 200000,
+      "diskon": 0,
+      "kategori": "best_sale",
+      "gambar": ""
+    }
+  ],
+  "Bola_pingpong": [
+    {
+      "nama": "Jersey",
+      "rating": 4.4,
+      "harga": 550000,
+      "diskon": 0.2,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Celana",
+      "rating": 4.2,
+      "harga": 450000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Sepatu",
+      "rating": 4.7,
+      "harga": 400000,
+      "diskon": 0.4,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Kaos_kaki",
+      "rating": 3.7,
+      "harga": 30000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Pelindung_siku_dan_lutut",
+      "rating": 4.0,
+      "harga": 50000,
+      "diskon": 0,
+      "kategori": "",
+      "gambar": ""
+    },
+    {
+      "nama": "Raket_pingpong",
+      "rating": 4.3,
+      "harga": 200000,
+      "diskon": 0.1,
+      "kategori": "best_sale",
+      "gambar": ""
+    },
+    {
+      "nama": "Bola_pingpong",
+      "rating": 4.7,
+      "harga": 90000,
+      "diskon": 0,
+      "kategori": "best_sale",
+      "gambar": ""
+    },
+    {
+      "nama": "Meja_pingpong",
+      "rating": 4.0,
+      "harga": 3000000,
+      "diskon": 0.3,
+      "kategori": "premium",
+      "gambar": ""
+    },
+    {
+      "nama": "Net",
+      "rating": 4.5,
+      "harga": 110000,
+      "diskon": 0.1,
+      "kategori": "",
+      "gambar": ""
+    }
+  ]
+}
