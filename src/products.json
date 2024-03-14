@@ -1,448 +1,170 @@
-{
-  "Rugby": [
-    {
-      "nama": "Jersey",
-      "rating": 4.5,
-      "harga": 780000,
-      "diskon": 0.5,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 4.4,
-      "harga": 310000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.8,
-      "harga": 1500000,
-      "diskon": 0,
-      "kategori": "best_sale",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 4.1,
-      "harga": 50000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Headgear",
-      "rating": 4.4,
-      "harga": 1300000,
-      "diskon": 0.7,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Body_armor",
-      "rating": 4.4,
-      "harga": 1700000,
-      "diskon": 0.7,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Gumshield",
-      "rating": 4.7,
-      "harga": 150000,
-      "diskon": 0.1,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_rugby",
-      "rating": 5.0,
-      "harga": 900000,
-      "diskon": 0.6,
-      "kategori": "best_sale",
-      "gambar": ""
-    }
-  ],
-  "Sepak_bola": [
-    {
-      "nama": "Jersey",
-      "rating": 4.5,
-      "harga": 1200000,
-      "diskon": 0.5,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 4.4,
-      "harga": 500000,
-      "diskon": 0.5,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.9,
-      "harga": 1800000,
-      "diskon": 0,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 4.2,
-      "harga": 60000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Pelindung_kaki",
-      "rating": 4.3,
-      "harga": 40000,
-      "diskon": 0.5,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sarung_tangan_kiper",
-      "rating": 4.7,
-      "harga": 150000,
-      "diskon": 0.1,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_sepak",
-      "rating": 5.0,
-      "harga": 1000000,
-      "diskon": 0.5,
-      "kategori": "best_sale",
-      "gambar": ""
-    }
-  ],
-  "Tenis": [
-    {
-      "nama": "Jersey",
-      "rating": 4.4,
-      "harga": 800000,
-      "diskon": 0.5,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 4.4,
-      "harga": 500000,
-      "diskon": 0.5,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.9,
-      "harga": 1000000,
-      "diskon": 0.1,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 4.3,
-      "harga": 30000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Raket_tenis",
-      "rating": 4.5,
-      "harga": 2000000,
-      "diskon": 0.5,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Pelindung_siku_dan_lutut",
-      "rating": 4.8,
-      "harga": 130000,
-      "diskon": 0.3,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_tenis",
-      "rating": 5.0,
-      "harga": 150000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    }
-  ],
-  "Baseball": [
-    {
-      "nama": "Jersey",
-      "rating": 4.0,
-      "harga": 500000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 3.9,
-      "harga": 400000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.5,
-      "harga": 800000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 4.2,
-      "harga": 40000,
-      "diskon": 0.2,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bat",
-      "rating": 4.8,
-      "harga": 2300000,
-      "diskon": 0.6,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Mitt",
-      "rating": 4.7,
-      "harga": 300000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Fielder's_glove",
-      "rating": 4.0,
-      "harga": 350000,
-      "diskon": 0.2,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Topi_baseball",
-      "rating": 4.3,
-      "harga": 90000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Pelindung_siku_dan_lutut",
-      "rating": 4.3,
-      "harga": 100000,
-      "diskon": 0.2,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_baseball",
-      "rating": 4.8,
-      "harga": 140000,
-      "diskon": 0.1,
-      "kategori": "best_sale",
-      "gambar": ""
-    }
-  ],
-  "Golf": [
-    {
-      "nama": "Jersey",
-      "rating": 3.8,
-      "harga": 500000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 3.9,
-      "harga": 400000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.6,
-      "harga": 800000,
-      "diskon": 0.1,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 4.0,
-      "harga": 40000,
-      "diskon": 0.2,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Stik_golf",
-      "rating": 4.8,
-      "harga": 5000000,
-      "diskon": 0.5,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Topi_golf",
-      "rating": 4.3,
-      "harga": 80000,
-      "diskon": 0.3,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_golf",
-      "rating": 4.7,
-      "harga": 200000,
-      "diskon": 0,
-      "kategori": "best_sale",
-      "gambar": ""
-    }
-  ],
-  "Bola_basket": [
-    {
-      "nama": "Jersey",
-      "rating": 4.5,
-      "harga": 750000,
-      "diskon": 0.5,
-      "kategori": "best_sale",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 4.2,
-      "harga": 500000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.9,
-      "harga": 1200000,
-      "diskon": 0.3,
-      "kategori": "best_sale",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 4.0,
-      "harga": 30000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Pelindung_siku_dan_lutut",
-      "rating": 4.0,
-      "harga": 50000,
-      "diskon": 0.1,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_basket",
-      "rating": 4.6,
-      "harga": 200000,
-      "diskon": 0,
-      "kategori": "best_sale",
-      "gambar": ""
-    }
-  ],
-  "Bola_pingpong": [
-    {
-      "nama": "Jersey",
-      "rating": 4.4,
-      "harga": 550000,
-      "diskon": 0.2,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Celana",
-      "rating": 4.2,
-      "harga": 450000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Sepatu",
-      "rating": 4.7,
-      "harga": 400000,
-      "diskon": 0.4,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Kaos_kaki",
-      "rating": 3.7,
-      "harga": 30000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Pelindung_siku_dan_lutut",
-      "rating": 4.0,
-      "harga": 50000,
-      "diskon": 0,
-      "kategori": "",
-      "gambar": ""
-    },
-    {
-      "nama": "Raket_pingpong",
-      "rating": 4.3,
-      "harga": 200000,
-      "diskon": 0.1,
-      "kategori": "best_sale",
-      "gambar": ""
-    },
-    {
-      "nama": "Bola_pingpong",
-      "rating": 4.7,
-      "harga": 90000,
-      "diskon": 0,
-      "kategori": "best_sale",
-      "gambar": ""
-    },
-    {
-      "nama": "Meja_pingpong",
-      "rating": 4.0,
-      "harga": 3000000,
-      "diskon": 0.3,
-      "kategori": "premium",
-      "gambar": ""
-    },
-    {
-      "nama": "Net",
-      "rating": 4.5,
-      "harga": 110000,
-      "diskon": 0.1,
-      "kategori": "",
-      "gambar": ""
-    }
-  ]
-}
+[
+  {
+    "nama": "Bola Sepak Adidas Telstar 18",
+    "rating": 4.7,
+    "harga": 150000,
+    "diskon": 10,
+    "kategori": "Sepak Bola",
+    "gambar": "https://example.com/bola_sepak.jpg"
+  },
+  {
+    "nama": "Raket Badminton Yonex Arcsaber 11",
+    "rating": 4.9,
+    "harga": 1200000,
+    "diskon": 5,
+    "kategori": "Bulu Tangkis",
+    "gambar": "https://example.com/raket_badminton.jpg"
+  },
+  {
+    "nama": "Treadmill Elektrik Garmin",
+    "rating": 4.8,
+    "harga": 5000000,
+    "diskon": 15,
+    "kategori": "Fitness",
+    "gambar": "https://example.com/treadmill.jpg"
+  },
+  {
+    "nama": "Sepeda Gunung Polygon Xtrada 6",
+    "rating": 4.5,
+    "harga": 3500000,
+    "diskon": 12,
+    "kategori": "Sepeda",
+    "gambar": "https://example.com/sepeda_gunung.jpg"
+  },
+  {
+    "nama": "Jersey Timnas Indonesia",
+    "rating": 4.6,
+    "harga": 250000,
+    "diskon": 8,
+    "kategori": "Sepak Bola",
+    "gambar": "https://example.com/jersey_timnas.jpg"
+  },
+  {
+    "nama": "Raket Tenis Head Speed Pro",
+    "rating": 4.9,
+    "harga": 1800000,
+    "diskon": 10,
+    "kategori": "Tenis",
+    "gambar": "https://example.com/raket_tenis.jpg"
+  },
+  {
+    "nama": "Dumbbell Set 20 kg",
+    "rating": 4.7,
+    "harga": 500000,
+    "diskon": 5,
+    "kategori": "Fitness",
+    "gambar": "https://example.com/dumbbell.jpg"
+  },
+  {
+    "nama": "Bola Basket Spalding NBA",
+    "rating": 4.8,
+    "harga": 800000,
+    "diskon": 10,
+    "kategori": "Basket",
+    "gambar": "https://example.com/bola_basket.jpg"
+  },
+  {
+    "nama": "Pakaian Renang Speedo Fastskin",
+    "rating": 4.9,
+    "harga": 900000,
+    "diskon": 15,
+    "kategori": "Renang",
+    "gambar": "https://example.com/pakaian_renang.jpg"
+  },
+  {
+    "nama": "Sepatu Lari Nike Air Zoom Pegasus",
+    "rating": 4.8,
+    "harga": 1200000,
+    "diskon": 10,
+    "kategori": "Lari",
+    "gambar": "https://example.com/sepatu_lari.jpg"
+  },
+  {
+    "nama": "Bola Pingpong Butterfly G40+",
+    "rating": 4.7,
+    "harga": 50000,
+    "diskon": 0,
+    "kategori": "Tenis Meja",
+    "gambar": "https://example.com/bola_pingpong.jpg"
+  },
+  {
+    "nama": "Skateboard Element Nyjah Huston",
+    "rating": 4.6,
+    "harga": 800000,
+    "diskon": 10,
+    "kategori": "Skateboard",
+    "gambar": "https://example.com/skateboard.jpg"
+  },
+  {
+    "nama": "Baju Taekwondo Adidas",
+    "rating": 4.5,
+    "harga": 300000,
+    "diskon": 5,
+    "kategori": "Beladiri",
+    "gambar": "https://example.com/baju_taekwondo.jpg"
+  },
+  {
+    "nama": "Tali Skipping Speed Rope",
+    "rating": 4.8,
+    "harga": 150000,
+    "diskon": 10,
+    "kategori": "Fitness",
+    "gambar": "https://example.com/tali_skipping.jpg"
+  },
+  {
+    "nama": "Bola Voli Mikasa MVA200",
+    "rating": 4.9,
+    "harga": 1000000,
+    "diskon": 5,
+    "kategori": "Voli",
+    "gambar": "https://example.com/bola_voli.jpg"
+  },
+  {
+    "nama": "Raket Squash Dunlop Hyperfibre+",
+    "rating": 4.7,
+    "harga": 700000,
+    "diskon": 15,
+    "kategori": "Squash",
+    "gambar": "https://example.com/raket_squash.jpg"
+  },
+  {
+    "nama": "Pelindung Lutut Nike Pro Combat",
+    "rating": 4.8,
+    "harga": 200000,
+    "diskon": 0,
+    "kategori": "Fitness",
+    "gambar": "https://example.com/pelindung_lutut.jpg"
+  },
+  {
+    "nama": "Peralatan Panjat Tebing Black Diamond",
+    "rating": 4.9,
+    "harga": 1500000,
+    "diskon": 10,
+    "kategori": "Pendakian",
+    "gambar": "https://example.com/peralatan_panjat.jpg"
+  },
+  {
+    "nama": "Ransel Daypack Consina",
+    "rating": 4.7,
+    "harga": 400000,
+    "diskon": 5,
+    "kategori": "Pendakian",
+    "gambar": "https://example.com/ransel_daypack.jpg"
+  },
+  {
+    "nama": "Tangki Air Camelbak",
+    "rating": 4.8,
+    "harga": 250000,
+    "diskon": 0,
+    "kategori": "Pendakian",
+    "gambar": "https://example.com/tangki_air.jpg"
+  },
+  {
+    "nama": "Gantungan Kunci Karabiner",
+    "rating": 4.9,
+    "harga": 50000,
+    "diskon": 0,
+    "kategori": "Pendakian",
+    "gambar": "https://example.com/gantungan_kunci.jpg"
+  }
+]
