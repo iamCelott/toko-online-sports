@@ -25,50 +25,42 @@ const Home = () => {
       <header className="sticky top-0 bg-white">
         <Navbar />
 
-        <div className="grid grid-cols-2 md:flex md:w-full h-11 gap-2 mt-11 w-2/3 mx-auto">
-          <input
-            type="search"
-            className="w-full h-11 md:order-2 md:w-3/4 outline-none border-2 border-black rounded-lg px-3 col-span-2"
-            placeholder="Search..."
-          />
-          <button className="cursor-pointer md:order-1 bg-gray-200 ">
+        <div className="flex h-11 my-11 justify-evenly gap-5">
+          <button className="w-32 lg:w-[140px] bg-gray-300 rounded-md text-[0.8rem] sm:px-5 md:px-2 ml-3 text-wrap hidden sm:inline-block">
             Download Sportis App
           </button>
-          <div class="flex bg-red-200 justify-center md:order-3 gap-1 items-center rounded-lg h-11">
-            <MenuButton
-              type="button"
-              img="/src/assets/shoppingcart.png"
-              classname="w-10"
+          <div className="flex-grow">
+            <input
+              type="text"
+              className="w-full ml-3 bg-gray-300 h-11 px-3 rounded-md sm:ml-0"
+              placeholder="Search..."
             />
-            <MenuButton
-              type="button"
-              img="/src/assets/notif.png"
-              classname="w-10"
-            />
-            <MenuButton
-              type="button"
-              img="/src/assets/mail.png"
-              classname="w-10"
-            />
+            <div className="ml-3 text-sm flex gap-3 font-semibold py-3 sm:ml-0">
+              <a href="" className="">
+                Sneakers
+              </a>
+              <a href="" className="">
+                Racket
+              </a>
+              <a href="" className="">
+                Cuff
+              </a>
+              <a href="" className="">
+                Towel
+              </a>
+              <a href="" className="">
+                Shuttlecock
+              </a>
+            </div>
           </div>
-        </div>
-
-        <div className="w-2/3 mx-auto pt-16 pb-2 lg:pt-2 ">
-          <a href="" className="mr-4">
-            Sneakers
-          </a>
-          <a href="" className="mx-4">
-            Racket
-          </a>
-          <a href="" className="mx-4">
-            Cuff
-          </a>
-          <a href="" className="mx-4">
-            Towel
-          </a>
-          <a href="" className="mx-4">
-            Shuttlecock
-          </a>
+          <div className="w-24 sm:w-32 lg:w-[140px] flex justify-between items-center mr-3">
+            <MenuButton
+              img="/src/assets/shoppingcart.png"
+              classname="w-7 h-7"
+            />
+            <MenuButton img="/src/assets/notif.png" classname="w-7 h-7" />
+            <MenuButton img="/src/assets/mail.png" classname="w-7 h-7" />
+          </div>
         </div>
 
         <hr className="border-black opacity-50" />
