@@ -25,17 +25,17 @@ const Home = () => {
       <header className="sticky top-0 bg-white">
         <Navbar />
 
-        <div className="flex h-11 my-11 justify-evenly gap-5">
-          <button className="w-32 lg:w-[140px] bg-gray-300 rounded-md text-[0.8rem] sm:px-5 md:px-2 ml-3 text-wrap hidden sm:inline-block">
+        <div className="flex mx-3 lg:mx-10 h-11 my-11 justify-between gap-3 lg:gap-10">
+          <button className="w-32 lg:w-[160px] bg-gray-300 rounded-md text-[0.8rem] sm:px-5 md:px-2 text-wrap hidden sm:inline-block">
             Download Sportis App
           </button>
           <div className="flex-grow">
             <input
               type="text"
-              className="w-full ml-3 bg-gray-300 h-11 px-3 rounded-md sm:ml-0"
+              className="w-full bg-gray-300 h-11 px-3 rounded-md sm:ml-0"
               placeholder="Search..."
             />
-            <div className="ml-3 text-sm flex gap-3 font-semibold py-3 sm:ml-0">
+            <div className="text-xs gap-3 md:gap-5 lg:7 flex font-semibold py-3 sm:ml-0 sm:text-sm">
               <a href="" className="">
                 Sneakers
               </a>
@@ -53,36 +53,42 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="w-24 sm:w-32 lg:w-[140px] flex justify-between items-center mr-3">
+          <div className="w-24 sm:w-32 lg:w-[160px] flex justify-between items-center">
             <MenuButton
               img="/src/assets/shoppingcart.png"
-              classname="w-7 h-7"
+              classname="w-7 h-7 lg:w-9 lg:h-9"
             />
-            <MenuButton img="/src/assets/notif.png" classname="w-7 h-7" />
-            <MenuButton img="/src/assets/mail.png" classname="w-7 h-7" />
+            <MenuButton
+              img="/src/assets/notif.png"
+              classname="w-7 h-7 lg:w-9 lg:h-9"
+            />
+            <MenuButton
+              img="/src/assets/mail.png"
+              classname="w-7 h-7 lg:w-9 lg:h-9"
+            />
           </div>
         </div>
 
         <hr className="border-black opacity-50" />
       </header>
 
-      {/* <div className="w-2/3 mx-auto">
-        <div className="bg-gray-300 w-full sm:h-[15rem] mt-2"></div>
+      <div className="px-3 mx-auto md:px-[10rem] lg:px-[15rem] ">
+        <div className="bg-gray-300 w-full sm:h-[20rem] mt-3 h-[15rem] md:h-[17rem]"></div>
 
-        <p className="py-3 font-bold">Selected Categories</p>
+        <p className="font-bold py-3">Selected Categories</p>
 
-        <div className="w-full flex justify-between">
-          <CardCategory img="category-1.png" classname="sm:w-12 sm:h-12" />
-          <CardCategory img="category-2.png" classname="sm:w-12 sm:h-12" />
-          <CardCategory img="category-3.png" classname="sm:w-12 sm:h-12" />
-          <CardCategory img="category-4.png" classname="sm:w-12 sm:h-12" />
-          <CardCategory img="category-5.png" classname="sm:w-12 sm:h-12" />
-          <CardCategory img="category-6.png" classname="sm:w-12 sm:h-12" />
-          <CardCategory img="category-7.png" classname="sm:w-12 sm:h-12" />
+        <div className="w-full flex gap-3 md:gap-5 overflow-x-auto sm:justify-between">
+          <CardCategory img="category-1.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory img="category-2.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory img="category-3.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory img="category-4.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory img="category-5.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory img="category-6.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory img="category-7.png" classname="w-[5rem] h-[5rem]" />
         </div>
 
         <p className="py-3 font-bold">Recommendations</p>
-      </div> */}
+      </div>
 
       {/* <div>
         <h1>Daftar Peralatan Olahraga</h1>
