@@ -25,7 +25,7 @@ const Home = () => {
       <header className="sticky top-0 bg-white">
         <Navbar />
 
-        <div className="flex mx-3 lg:mx-10 h-11 my-11 justify-between gap-3 lg:gap-10">
+        <div className="flex mx-3 lg:mx-10 2xl:mx-28 h-11 my-11 justify-between gap-3 lg:gap-10 2xl:gap-28">
           <button className="w-32 lg:w-[160px] bg-gray-300 rounded-md text-[0.8rem] sm:px-5 md:px-2 text-wrap hidden sm:inline-block">
             Download Sportis App
           </button>
@@ -35,7 +35,7 @@ const Home = () => {
               className="w-full bg-gray-300 h-11 px-3 rounded-md sm:ml-0"
               placeholder="Search..."
             />
-            <div className="text-xs gap-3 md:gap-5 lg:7 flex font-semibold py-3 sm:ml-0 sm:text-sm">
+            <div className="text-xs gap-3 md:gap-5 lg:7 flex font-semibold py-3 sm:ml-0 sm:text-sm 2xl:text-lg">
               <a href="" className="">
                 Sneakers
               </a>
@@ -72,25 +72,46 @@ const Home = () => {
         <hr className="border-black opacity-50" />
       </header>
 
-      <div className="px-3 mx-auto md:px-[10rem] lg:px-[15rem] ">
-        <div className="bg-gray-300 w-full sm:h-[20rem] mt-3 h-[15rem] md:h-[17rem]"></div>
+      <div className="px-3 mx-auto md:px-[10rem] lg:px-[15rem] 2xl:px-[28rem]">
+        <div className="bg-gray-300 w-full sm:h-[20rem] mt-3 h-[15rem] md:h-[17rem] 2xl:h-[22rem]"></div>
 
-        <p className="font-bold py-3">Selected Categories</p>
+        <p className="font-bold 2xl:text-xl py-3">Selected Categories</p>
 
         <div className="w-full flex gap-3 md:gap-5 overflow-x-auto sm:justify-between">
-          <CardCategory img="category-1.png" classname="w-[5rem] h-[5rem]" />
-          <CardCategory img="category-2.png" classname="w-[5rem] h-[5rem]" />
-          <CardCategory img="category-3.png" classname="w-[5rem] h-[5rem]" />
-          <CardCategory img="category-4.png" classname="w-[5rem] h-[5rem]" />
-          <CardCategory img="category-5.png" classname="w-[5rem] h-[5rem]" />
-          <CardCategory img="category-6.png" classname="w-[5rem] h-[5rem]" />
-          <CardCategory img="category-7.png" classname="w-[5rem] h-[5rem]" />
+          <CardCategory
+            img="category-1.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
+          <CardCategory
+            img="category-2.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
+          <CardCategory
+            img="category-3.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
+          <CardCategory
+            img="category-4.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
+          <CardCategory
+            img="category-5.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
+          <CardCategory
+            img="category-6.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
+          <CardCategory
+            img="category-7.png"
+            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+          />
         </div>
 
-        <p className="py-3 font-bold">Recommendations</p>
+        <p className="py-3 2xl:text-xl font-bold">Recommendations</p>
       </div>
 
-      {/* <div>
+      <div>
         <h1>Daftar Peralatan Olahraga</h1>
         <ul>
           {data &&
@@ -105,7 +126,7 @@ const Home = () => {
               </li>
             ))}
         </ul>
-      </div> */}
+      </div>
     </>
   );
 };
