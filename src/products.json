@@ -5,7 +5,8 @@
     "harga": 150000,
     "diskon": 10,
     "kategori": "Sepak Bola",
-    "gambar": "https://example.com/bola_sepak.jpg"
+    "gambar": "https://example.com/bola_sepak.jpg",
+    "terjual": 500
   },
   {
     "nama": "Raket Badminton Yonex Arcsaber 11",
@@ -13,7 +14,8 @@
     "harga": 1200000,
     "diskon": 5,
     "kategori": "Bulu Tangkis",
-    "gambar": "https://example.com/raket_badminton.jpg"
+    "gambar": "https://example.com/raket_badminton.jpg",
+    "terjual": 200
   },
   {
     "nama": "Treadmill Elektrik Garmin",
@@ -21,7 +23,8 @@
     "harga": 5000000,
     "diskon": 15,
     "kategori": "Fitness",
-    "gambar": "https://example.com/treadmill.jpg"
+    "gambar": "https://example.com/treadmill.jpg",
+    "terjual": 100
   },
   {
     "nama": "Sepeda Gunung Polygon Xtrada 6",
@@ -29,7 +32,8 @@
     "harga": 3500000,
     "diskon": 12,
     "kategori": "Sepeda",
-    "gambar": "https://example.com/sepeda_gunung.jpg"
+    "gambar": "https://example.com/sepeda_gunung.jpg",
+    "terjual": 150
   },
   {
     "nama": "Jersey Timnas Indonesia",
@@ -37,7 +41,8 @@
     "harga": 250000,
     "diskon": 8,
     "kategori": "Sepak Bola",
-    "gambar": "https://example.com/jersey_timnas.jpg"
+    "gambar": "https://example.com/jersey_timnas.jpg",
+    "terjual": 300
   },
   {
     "nama": "Raket Tenis Head Speed Pro",
@@ -45,7 +50,8 @@
     "harga": 1800000,
     "diskon": 10,
     "kategori": "Tenis",
-    "gambar": "https://example.com/raket_tenis.jpg"
+    "gambar": "https://example.com/raket_tenis.jpg",
+    "terjual": 180
   },
   {
     "nama": "Dumbbell Set 20 kg",
@@ -53,7 +59,8 @@
     "harga": 500000,
     "diskon": 5,
     "kategori": "Fitness",
-    "gambar": "https://example.com/dumbbell.jpg"
+    "gambar": "https://example.com/dumbbell.jpg",
+    "terjual": 250
   },
   {
     "nama": "Bola Basket Spalding NBA",
@@ -61,7 +68,8 @@
     "harga": 800000,
     "diskon": 10,
     "kategori": "Basket",
-    "gambar": "https://example.com/bola_basket.jpg"
+    "gambar": "https://example.com/bola_basket.jpg",
+    "terjual": 180
   },
   {
     "nama": "Pakaian Renang Speedo Fastskin",
@@ -69,7 +77,8 @@
     "harga": 900000,
     "diskon": 15,
     "kategori": "Renang",
-    "gambar": "https://example.com/pakaian_renang.jpg"
+    "gambar": "https://example.com/pakaian_renang.jpg",
+    "terjual": 120
   },
   {
     "nama": "Sepatu Lari Nike Air Zoom Pegasus",
@@ -77,7 +86,8 @@
     "harga": 1200000,
     "diskon": 10,
     "kategori": "Lari",
-    "gambar": "https://example.com/sepatu_lari.jpg"
+    "gambar": "https://example.com/sepatu_lari.jpg",
+    "terjual": 210
   },
   {
     "nama": "Bola Pingpong Butterfly G40+",
@@ -85,7 +95,8 @@
     "harga": 50000,
     "diskon": 0,
     "kategori": "Tenis Meja",
-    "gambar": "https://example.com/bola_pingpong.jpg"
+    "gambar": "https://example.com/bola_pingpong.jpg",
+    "terjual": 350
   },
   {
     "nama": "Skateboard Element Nyjah Huston",
@@ -93,7 +104,8 @@
     "harga": 800000,
     "diskon": 10,
     "kategori": "Skateboard",
-    "gambar": "https://example.com/skateboard.jpg"
+    "gambar": "https://example.com/skateboard.jpg",
+    "terjual": 90
   },
   {
     "nama": "Baju Taekwondo Adidas",
@@ -101,7 +113,8 @@
     "harga": 300000,
     "diskon": 5,
     "kategori": "Beladiri",
-    "gambar": "https://example.com/baju_taekwondo.jpg"
+    "gambar": "https://example.com/baju_taekwondo.jpg",
+    "terjual": 180
   },
   {
     "nama": "Tali Skipping Speed Rope",
@@ -109,7 +122,8 @@
     "harga": 150000,
     "diskon": 10,
     "kategori": "Fitness",
-    "gambar": "https://example.com/tali_skipping.jpg"
+    "gambar": "https://example.com/tali_skipping.jpg",
+    "terjual": 300
   },
   {
     "nama": "Bola Voli Mikasa MVA200",
@@ -117,7 +131,8 @@
     "harga": 1000000,
     "diskon": 5,
     "kategori": "Voli",
-    "gambar": "https://example.com/bola_voli.jpg"
+    "gambar": "https://example.com/bola_voli.jpg",
+    "terjual": 150
   },
   {
     "nama": "Raket Squash Dunlop Hyperfibre+",
@@ -125,7 +140,8 @@
     "harga": 700000,
     "diskon": 15,
     "kategori": "Squash",
-    "gambar": "https://example.com/raket_squash.jpg"
+    "gambar": "https://example.com/raket_squash.jpg",
+    "terjual": 80
   },
   {
     "nama": "Pelindung Lutut Nike Pro Combat",
@@ -133,7 +149,8 @@
     "harga": 200000,
     "diskon": 0,
     "kategori": "Fitness",
-    "gambar": "https://example.com/pelindung_lutut.jpg"
+    "gambar": "https://example.com/pelindung_lutut.jpg",
+    "terjual": 400
   },
   {
     "nama": "Peralatan Panjat Tebing Black Diamond",
@@ -141,7 +158,8 @@
     "harga": 1500000,
     "diskon": 10,
     "kategori": "Pendakian",
-    "gambar": "https://example.com/peralatan_panjat.jpg"
+    "gambar": "https://example.com/peralatan_panjat.jpg",
+    "terjual": 100
   },
   {
     "nama": "Ransel Daypack Consina",
@@ -149,7 +167,8 @@
     "harga": 400000,
     "diskon": 5,
     "kategori": "Pendakian",
-    "gambar": "https://example.com/ransel_daypack.jpg"
+    "gambar": "https://example.com/ransel_daypack.jpg",
+    "terjual": 250
   },
   {
     "nama": "Tangki Air Camelbak",
@@ -157,7 +176,8 @@
     "harga": 250000,
     "diskon": 0,
     "kategori": "Pendakian",
-    "gambar": "https://example.com/tangki_air.jpg"
+    "gambar": "https://example.com/tangki_air.jpg",
+    "terjual": 150
   },
   {
     "nama": "Gantungan Kunci Karabiner",
@@ -165,6 +185,7 @@
     "harga": 50000,
     "diskon": 0,
     "kategori": "Pendakian",
-    "gambar": "https://example.com/gantungan_kunci.jpg"
+    "gambar": "https://example.com/gantungan_kunci.jpg",
+    "terjual": 600
   }
 ]

@@ -109,23 +109,36 @@ const Home = () => {
         </div>
 
         <p className="py-3 2xl:text-xl font-bold">Recommendations</p>
-      </div>
 
-      <div>
-        <h1>Daftar Peralatan Olahraga</h1>
-        <ul>
+        <div className=" overflow-x-auto flex gap-2 p-2 mb-10">
           {data &&
-            data.slice(0, 4).map((item, index) => (
-              <li key={index}>
-                <h2>{item.nama}</h2>
-                <p>Rating: {item.rating}</p>
-                <p>Harga: Rp {item.harga}</p>
-                <p>Diskon: {item.diskon}%</p>
-                <p>Kategori: {item.kategori}</p>
-                <img src={item.gambar} alt={item.nama} />
-              </li>
+            data.slice(0, 10).map((item, index) => (
+              <a href="">
+                <div
+                  className="flex-shrink-0 w-[15rem] bg-[#D9D9D9] rounded-lg overflow-hidden"
+                  key={index}
+                >
+                  <img
+                    src="/src/assets/test.jpg"
+                    alt=""
+                    className="w-full h-52 object-cover"
+                  />
+                  <div className="border-t-2 border-black p-2">
+                    <p className="text-sm">{item.nama}</p>
+                    <p className="font-bold">
+                      Rp. {item.harga.toLocaleString()}
+                    </p>
+                    <div className="w-full h-10"></div>
+                    <div className="">
+                      <span>{item.rating}</span>
+                      <span className="px-2">|</span>
+                      <span>{item.terjual}</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
             ))}
-        </ul>
+        </div>
       </div>
     </>
   );
