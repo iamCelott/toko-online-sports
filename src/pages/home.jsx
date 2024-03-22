@@ -25,90 +25,85 @@ const Home = () => {
       <header className="sticky top-0 bg-white">
         <Navbar />
 
-        <div className="flex mx-3 lg:mx-10 2xl:mx-28 h-11 my-11 justify-between gap-3 lg:gap-10 2xl:gap-28">
-          <button className="w-32 lg:w-[160px] bg-gray-300 rounded-md text-[0.8rem] sm:px-5 md:px-2 text-wrap hidden sm:inline-block">
-            Download Sportis App
-          </button>
-          <div className="flex-grow">
-            <input
-              type="text"
-              className="w-full bg-gray-300 h-11 px-3 rounded-md sm:ml-0"
-              placeholder="Search..."
-            />
-            <div className="text-xs gap-3 md:gap-5 lg:7 flex font-semibold py-3 sm:ml-0 sm:text-sm 2xl:text-lg">
-              <a href="" className="">
-                Sneakers
-              </a>
-              <a href="" className="">
-                Racket
-              </a>
-              <a href="" className="">
-                Cuff
-              </a>
-              <a href="" className="">
-                Towel
-              </a>
-              <a href="" className="">
-                Shuttlecock
-              </a>
+        <div className="w-full">
+          <div className="sm:w-[70%] max-w-[1024px] px-3 mx-auto h-11 my-11 flex justify-between gap-3">
+            <button className="w-[110px] text-xs px-3 bg-gray-300 hidden sm:inline-block rounded-md ">
+              Download Sportis App
+            </button>
+            <div className="flex-grow">
+              <input
+                type="text"
+                className="w-full bg-gray-300 h-11 px-3 rounded-md sm:ml-0"
+                placeholder="Search..."
+              />
+              <div className="flex text-xs sm:text-[0.6rem] md:text-xs lg:text-sm gap-2 md:gap-3 font-semibold py-3 sm:ml-0">
+                <a href="" className="">
+                  Sneakers
+                </a>
+                <a href="" className="">
+                  Racket
+                </a>
+                <a href="" className="">
+                  Cuff
+                </a>
+                <a href="" className="">
+                  Towel
+                </a>
+                <a href="" className="">
+                  Shuttlecock
+                </a>
+              </div>
+            </div>
+            <div className="w-[110px] flex gap-2 justify-between items-center">
+              <MenuButton
+                img="/src/assets/shoppingcart.png"
+                classname="w-7 h-7"
+              />
+              <MenuButton img="/src/assets/notif.png" classname="w-7 h-7 " />
+              <MenuButton img="/src/assets/mail.png" classname="w-7 h-7 " />
             </div>
           </div>
-          <div className="w-24 sm:w-32 lg:w-[160px] flex justify-between items-center">
-            <MenuButton
-              img="/src/assets/shoppingcart.png"
-              classname="w-7 h-7 lg:w-9 lg:h-9"
-            />
-            <MenuButton
-              img="/src/assets/notif.png"
-              classname="w-7 h-7 lg:w-9 lg:h-9"
-            />
-            <MenuButton
-              img="/src/assets/mail.png"
-              classname="w-7 h-7 lg:w-9 lg:h-9"
-            />
-          </div>
         </div>
-
         <hr className="border-black opacity-50" />
       </header>
 
-      <div className="px-3 mx-auto md:px-[10rem] lg:px-[15rem] 2xl:px-[28rem]">
-        <div className="bg-gray-300 w-full sm:h-[20rem] mt-3 h-[15rem] md:h-[17rem] 2xl:h-[22rem]"></div>
+      <div className="px-3 max-w-[1024px] sm:w-[70%] mx-auto">
+        <div className="bg-gray-300 w-full mt-3 h-[20rem] "></div>
 
         <p className="font-bold 2xl:text-xl py-3">Selected Categories</p>
 
-        <div className="w-full flex gap-3 md:gap-5 overflow-x-auto sm:justify-between">
+        <div className="w-full flex gap-3 overflow-x-auto sm:justify-between">
           <CardCategory
             img="category-1.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
           <CardCategory
             img="category-2.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
           <CardCategory
             img="category-3.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
           <CardCategory
             img="category-4.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
           <CardCategory
             img="category-5.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
           <CardCategory
             img="category-6.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
           <CardCategory
             img="category-7.png"
-            classname="w-[5rem] h-[5rem] 2xl:w-[6.5rem] 2xl:h-[6.5rem]"
+            classname="w-[5rem] h-[5rem] lg:w-[5.5rem] lg:h-[5.5rem]"
           />
         </div>
 
-        <p className="py-3 2xl:text-xl font-bold">Recommendations</p>
+        {/* <p className="py-3 2xl:text-xl font-bold">Recommendations</p>
 
         <div className=" overflow-x-auto flex gap-2 p-2 mb-10">
           {data &&
@@ -138,7 +133,7 @@ const Home = () => {
                 </div>
               </a>
             ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
