@@ -2,19 +2,20 @@ import { useEffect, useState } from "react";
 import Navbar from "../component/fragments/navbar";
 import CardCategory from "../component/fragments/cardcategory";
 import MenuButton from "../component/fragments/menubutton";
+import Button from "../component/elements/button";
+import Carousel from "../component/fragments/carouselslider";
 
 const Home = () => {
   const [data, setData] = useState();
   useEffect(() => {
     const fetchData = async () => {
-      try {
-        const response = await fetch("http://localhost:3000");
-        const result = await response.json();
-
-        setData(result);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
+      // try {
+      //   const response = await fetch("http://localhost:3000");
+      //   const result = await response.json();
+      //   setData(result);
+      // } catch (error) {
+      //   console.error("Error fetching data:", error);
+      // }
     };
 
     fetchData();
@@ -27,9 +28,9 @@ const Home = () => {
 
         <div className="w-full">
           <div className="sm:w-[70%] max-w-[1024px] px-3 mx-auto h-11 my-11 flex justify-between gap-3">
-            <button className="w-[110px] text-xs px-3 bg-gray-300 hidden sm:inline-block rounded-md ">
+            <Button classname="hidden sm:inline-block w-[110px] rounded-md">
               Download Sportis App
-            </button>
+            </Button>
             <div className="flex-grow">
               <input
                 type="text"
@@ -68,8 +69,7 @@ const Home = () => {
       </header>
 
       <div className="px-3 max-w-[1024px] sm:w-[70%] mx-auto">
-        <div className="bg-gray-300 w-full mt-3 h-[20rem] "></div>
-
+        <Carousel />
         <p className="font-bold 2xl:text-xl py-3">Selected Categories</p>
 
         <div className="w-full flex gap-3 overflow-x-auto sm:justify-between">
