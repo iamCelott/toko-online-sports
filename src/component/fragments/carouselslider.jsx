@@ -1,5 +1,5 @@
 import Button from "../elements/button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,26 +11,48 @@ const Carousel = () => {
   ];
 
   const nextImg = () => {
-    setCurrentIndex((prev) => prev + 1);
-    console.log(currentIndex);
+    if (currentIndex !== 3) {
+      setCurrentIndex((prev) => prev + 1);
+    } else {
+      setCurrentIndex(0);
+    }
   };
 
   const prevImg = () => {
-    setCurrentIndex((prev) => prev - 1);
-    console.log(currentIndex);
+    if (currentIndex !== 0) {
+      setCurrentIndex((prev) => prev - 1);
+    } else {
+      setCurrentIndex(3);
+    }
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [currentIndex, images.length]);
+
   return (
-    <div className="bg-gray-300 w-full mt-3 flex overflow-hidden relative">
+    <div className="bg-gray-300 w-full mt-3 flex relative overflow-hidden">
       <Button
         type="button"
         onClick={prevImg}
-        classname="absolute top-1/2 left-2 py-2 rounded-full cursor-pointer"
+        classname="absolute top-1/2 z-30 left-2 py-2 rounded-full cursor-pointer"
       >
         &lt;
       </Button>
       {images.map((image, index) => (
-        <img key={index} src={image} alt="" />
+        <img
+          key={index}
+          src={image}
+          className={`transition-transform duration-300 translate-x-[-${
+            currentIndex * 100
+          }%]`}
+        />
       ))}
       <Button
         type="button"

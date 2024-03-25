@@ -9,13 +9,13 @@ const Home = () => {
   const [data, setData] = useState();
   useEffect(() => {
     const fetchData = async () => {
-      // try {
-      //   const response = await fetch("http://localhost:3000");
-      //   const result = await response.json();
-      //   setData(result);
-      // } catch (error) {
-      //   console.error("Error fetching data:", error);
-      // }
+      try {
+        const response = await fetch("http://localhost:3000");
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
     };
 
     fetchData();
@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <header className="sticky top-0 bg-white">
+      <header className="sticky top-0 bg-white z-50">
         <Navbar />
 
         <div className="w-full">
@@ -68,7 +68,7 @@ const Home = () => {
         <hr className="border-black opacity-50" />
       </header>
 
-      <div className="px-3 max-w-[1024px] sm:w-[70%] mx-auto">
+      <div className="px-3 max-w-[1024px] sm:w-[70%] mx-auto z-10">
         <Carousel />
         <p className="font-bold 2xl:text-xl py-3">Selected Categories</p>
 
@@ -103,7 +103,7 @@ const Home = () => {
           />
         </div>
 
-        {/* <p className="py-3 2xl:text-xl font-bold">Recommendations</p>
+        <p className="py-3 2xl:text-xl font-bold">Recommendations</p>
 
         <div className=" overflow-x-auto flex gap-2 p-2 mb-10">
           {data &&
@@ -133,7 +133,7 @@ const Home = () => {
                 </div>
               </a>
             ))}
-        </div> */}
+        </div>
       </div>
     </>
   );
